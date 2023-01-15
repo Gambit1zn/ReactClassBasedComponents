@@ -19,6 +19,10 @@ class Users extends Component {
     });
   }
 
+  componentWillUnmount() {
+    console.log('User Will Unmount');
+  }
+
   render() {
     const usersList = (
       <ul>
